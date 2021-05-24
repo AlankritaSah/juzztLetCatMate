@@ -1,0 +1,178 @@
+/* TITLE-SECTION */
+#title {
+  text-align: left;
+  background-color: #ffe3fe;
+  color: BLACK;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 10% 3% ;
+}
+
+/* TITLE IMAGE */
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  /* z-index: -1; */
+  position: absolute;
+  right: 30%;
+}
+
+/* HEADING */
+.big-heading {
+  font-family: "Montez";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Orelega One";
+}
+
+h2 {
+  font-family: "Montserrat-dark";
+  font-size: 2.8rem;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Montserrat-dark";
+}
+
+p {
+  color: gray;
+}
+
+/* CONTAINER-SECTION */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* NAVIGATION BRAND */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+.navbar-brand {
+  font-weight: normal;
+  color: #fff;
+  font-family: "Ubuntu";
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: light;
+}
+
+/* DOWNLOAD BUTTONS */
+.download-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* FEATURES-SECTION */
+.cat-pic {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.lady-pic {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#features {
+  padding: 8% 13%;
+    background-color: white;
+text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 3%;
+  /* font-family:  "Montserrat-dark"; */
+}
+
+.icon {
+  color: #FF69B4;
+  padding-bottom: 4%;
+}
+
+.icon:hover {
+  color: #FFB6C1;
+}
+
+/* TESTIMONIAL */
+#testimonials {
+  text-align: center;
+  background-color: #b4aee8;
+  color: #350b40;
+}
+
+#press {
+  background-color: #b4aee8;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 8% 13%;
+}
+
+/* PRICING SECTIOM */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+  text-align: center;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+/* BOTTOM */
+.bottom-layer {
+  background-color: #ffe3fe;
+  color: BLACK;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+#footer {
+  padding: 7% 6%;
+  text-align: center;
+}
+
+.footer-icon {
+  margin: 1%;
+}
